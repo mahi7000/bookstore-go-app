@@ -36,7 +36,7 @@ func (apiCfg *ApiConfig) HandlerCreateUser(w http.ResponseWriter, r *http.Reques
 		Password: string(hashed_password),
 	})
 	if err != nil {
-		RespondWithError(w, 403, "Unable to create new user")
+		RespondWithError(w, 403, "Unables to create new user")
 		return
 	}
 

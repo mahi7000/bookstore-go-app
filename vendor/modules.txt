@@ -15,10 +15,16 @@ github.com/google/uuid
 github.com/joho/godotenv
 # github.com/lib/pq v1.10.9
 ## explicit; go 1.13
-github.com/lib/pq
-github.com/lib/pq/oid
-github.com/lib/pq/scram
+# github.com/shurcooL/graphql v0.0.0-20230722043721-ed46e5a46466
+## explicit; go 1.19
+github.com/shurcooL/graphql
+github.com/shurcooL/graphql/ident
+github.com/shurcooL/graphql/internal/jsonutil
 # golang.org/x/crypto v0.39.0
 ## explicit; go 1.23.0
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/blowfish
+# golang.org/x/oauth2 v0.30.0
+## explicit; go 1.23.0
+golang.org/x/oauth2
+golang.org/x/oauth2/internal
